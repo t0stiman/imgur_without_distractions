@@ -1,14 +1,9 @@
 # imgur_without_distractions
 
 Before:
-![c1.png](c1.png)
+![1_before.png](1_before.png)
 After:
-![c2.png](c2.png)
-
-Before:
-![b1.png](b1.png)
-After:
-![b2.png](b2.png)
+![1_after.png](1_after.png)
 
 ## How to use
 

@@ -1,71 +1,24 @@
-@-moz-document url-prefix("https://imgur.com/") {
 /*made by Tostiman
-tostiman.com
-github.com/t0stiman
+https://github.com/t0stiman/imgur_without_distractions
+https://tostiman.com
 */
 
 /*hide stuff i dont need*/
-div.post-action,
-#right-content,
-div.next-prev,
-#comments-container,
-#div-ad-top_banner,
-.ab-iam-root,
-#report-bad-ads-modal,
-.advertisement {
+.NavbarNotifications,
+.EmeraldButton,
+.Navigation-Container,
+.Gallery-Sidebar,
+.Gallery-EngagementBar,
+.BottomAd-container,
+.Footer-wrapper,
+#qc-cmp2-persistent-link,
+.BottomRecirc,
+.Gallery-Content-BottomAd
+{
 	display: none;
 }
 
-body,
-html,
-div.post-pad,
-/*div.post-images > div,*/
-.post-image img {
-	width: 100%;
-	height: 100%;
-}
-#inside {
-	margin-left: 5%;
-	margin-right: 5%;
-	padding: 0;
-	width: 90%;
-	height: 90%;
-}
-div.post-pad {
-	margin: 0;
-}
-div.post-container {
-	padding: 0 !important;
-	width: 100%;
-	height: 100%;
-}
-div.post-header {
-	width: 100%;
-}
-.zoom > img, /*albums, single images*/
-div.post-image > img /*gifs*/
-{
-	object-fit: contain;
-	max-height: 75vh;
-}
-/*post title*/
-.post-title-container {
-    max-width: 100%;
-    width: 100%;
-	text-align: center;
-}
-.post-title-meta {
-	text-align: center;
-}
-
-/*top bar fixes*/
-div.header-center {
-	width: 100%;
-}
-#secondary-nav {
-	margin-right: 0;
-}
-#topbar .logo {
-	margin-left: 0;
-}
+/* visual tweaks*/
+div.Gallery {
+	padding-top: 0;
 }
